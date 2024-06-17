@@ -1,0 +1,49 @@
+
+
+.side-menu{
+  position: fixed;
+  right: 0px;
+  top: 40vh;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  z-index: 5;
+ 
+
+}
+.side-menu ul{
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+
+}
+.side-menu ul li{
+  list-style-type: none;
+  height: 40px;
+  width: 40px;
+  background-color: #ffffff;
+  color: #232323;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  
+}
+.side-menu ul li:nth-child(2){
+  border-bottom: 1px solid #232323;
+  border-top: 2px solid #232323;
+}
+#header-top{
+  scroll-behavior: smooth;
+}
+
+#msg{
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: #a1decd;
+  color: #232323;
+  border: none;
+  border-radius: 0px;
+  letter-spacing: .02em;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 14px;
+}

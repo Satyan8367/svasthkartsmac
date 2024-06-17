@@ -1,0 +1,79 @@
+.organic-product-container{
+    width: 80%;
+    margin: auto;
+    /* background: url('./images/svasthkart-bg.webp'); */
+    background-image: url('./images/svasthkart-bg.webp');
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* padding: 20px 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+.organic-product-content{
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+.organic-product-content p{
+    font-size: 11px;
+    font-weight: 700;
+    color: #232323;
+}
+.organic-product-content h3{
+    font-size: 28px;
+    line-height: 28px;
+    color: #232323;
+}
+.organic-product-content span{
+    font-size: 11px;
+    line-height: 9px;
+    color: #232323;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.btn.organic-btn{
+    background-color: #232323;
+    color: #ffffff;
+    width: 60%;
+    box-shadow: 5px 5px rgb(106, 191, 220);
+}
+.btn.organic-btn:hover{
+    box-shadow: 5px 5px #000;
+}
+@media (max-width:1024px){
+    .organic-product-container{
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+        height: 60vh;
+        background-size: cover;
+    }
+    .organic-product-content{
+        width: 80%;
+    }
+    .organic-product-content{
+       
+        padding-bottom: 20px;
+    }
+    .organic-product-container{
+        overflow-y: scroll;
+        padding-top: 20px;
+    }
+}
+@media(max-width:450px){
+    .organic-product-container{
+        padding-top: 20px;
+        height: 50vh;
+        
+    }
+
+}
